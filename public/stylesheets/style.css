@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size:13px;
+  }
+  
+  .success, .error, .validation {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding:15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  }
+
+  .success {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  }
+  .error {
+  color: #D8000C;
+  background-color: #FFBABA;
+  }
+
+  .caption{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
