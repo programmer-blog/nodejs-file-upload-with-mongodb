@@ -1,6 +1,4 @@
 # nodejs-file-upload-with-mongodb
-Source code for article on how to how to upload a file with nodejs and  mongodb using multer module
-
 Programmer Blog: https://programmerblog.net/
 
 
@@ -28,7 +26,7 @@ Install MongoDB
 
     Current databse will be changed to to dbphotogallery.
 
-install NodeJS 
+Install NodeJS 
  
      Please visit NodeJS site and download installer, Install on your system, It also install NPM or Node Package Manager
 
