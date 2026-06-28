@@ -2,56 +2,57 @@
 Nodejs uplaod file using mongodb with multer package.
 
 
-Install MongoDB 
+### Install MongoDB 
 
-    First you need to install MongoDB on your system, Please visit MonogoDB site and download it.
+First you need to install MongoDB on your system, Please visit MonogoDB site and download it.
 
-    Create a MongoDB database After MongoDB installation. Create a data/db directory - In windows c:/data/db
+Create a MongoDB database After MongoDB installation. Create a data/db directory - In windows c:/data/db
 
-    On command prompt, open MongoDB -> bin folder and run
+On command prompt, open MongoDB -> bin folder and run
 
       > mongod
 
-    Open another command prompt and open bin folder and type
+Open another command prompt and open bin folder and type
 
       > mongo
 
-    Mongo shell is running, type
+Mongo shell is running, type
 
       > use dbphotogallery
 
-    Current databse will be changed to to dbphotogallery.
+Current database will be changed to to dbphotogallery.
 
-Install NodeJS 
+### Install NodeJS 
  
-     Please visit NodeJS site and download installer, Install on your system, It also install NPM or Node Package Manager
+Please visit NodeJS site and download installer, Install on your system, It also install NPM or Node Package Manager
 
-     Generate NodeJs, Express application using Express command line tool to generate an application skeleton.
+Generate NodeJs, Express application using Express command line tool to generate an application skeleton.
 
      express --view=pug nodejs-file-upload
 
 
-Install required dependencies
+### Install required dependencies
 
-           cd  nodejs-file-upload && npm install
+    cd  nodejs-file-upload && npm install
            
-           npm install -g nodemon --save
+    npm install -g nodemon --save
            
-           npm install --save multer
+    npm install --save multer
            
-           npm i --save mongoose
-           
-Add a folder to upload files
+    npm i --save mongoose
 
-         Open the public folder and add a new folder called files in it. This folder is used to save user uploaded files.
+           
+### Add a folder to upload files
+
+Open the public folder and add a new folder called files in it. This folder is used to save user uploaded files.
 
 Create a Model using mongoose 
 
-         A Photo Schema is created in a Models folder using Mongoose
+A Photo Schema is created in a Models folder using Mongoose
 
 Create a Form in pug template engine 
 
-         Create a form and photo gallery using materialize framework
+Create a form and photo gallery using materialize framework
          
 Fecth records from MongoDB and display in photo gallery
 
