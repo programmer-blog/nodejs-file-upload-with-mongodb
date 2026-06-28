@@ -1,10 +1,6 @@
 # nodejs-file-upload-with-mongodb
-Programmer Blog: https://programmerblog.net/
+Nodejs uplaod file using mongodb with multer package.
 
-
-Source code for article on Nodejs uplaod file using mongodb with multer package.
-
-You can read detailed tutorial on our blog: https://programmerblog.net/nodejs-file-upload-tutorial/
 
 Install MongoDB 
 
