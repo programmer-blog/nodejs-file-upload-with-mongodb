@@ -58,6 +58,3 @@ Fecth records from MongoDB and display in photo gallery
 
 Upload file to server and add file path and caption to MongoDB collection
 
-
-Reade More at : https://programmerblog.net/nodejs-file-upload-tutorial/
-
